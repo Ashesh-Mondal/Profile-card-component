@@ -85,3 +85,11 @@ body {
 .likes {
   padding-right: 5rem;
 }
+
+/* ####################### mobile view ######################### */
+
+@media (max-width: 500px) {
+  body {
+    background-position: right 37vw bottom 50vh, left 33vw top 50vh;
+  }
+}
