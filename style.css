@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  background: hsl(185, 75%, 39%);
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.image {
+  max-width: 42rem;
+  border-radius: 2rem 2rem 0 0;
+  overflow: hidden; /* used to hide the extra image width and height outside of the container */
+}
+
+.main-content .profile-picture {
+  border-radius: 50%;
+  border: 0.5rem solid white;
+  margin-top: -5.7rem;
+}
+
+.main-content .name {
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.name .age {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  padding-left: 1rem;
+}
+
+.country {
+  margin-top: 1.2rem;
+  color: hsl(227, 10%, 46%);
+  font-size: 1.6rem;
+  padding-bottom: 3rem;
+  border-bottom: 0.01rem solid hsl(0, 0%, 59%);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.number {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  color: hsl(0, 0%, 59%);
+}
+
+.followers,
+.likes {
+  padding-right: 5rem;
+}
